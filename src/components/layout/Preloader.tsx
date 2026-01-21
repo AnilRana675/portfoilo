@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { RefreshCw } from "lucide-react";
-import { useLenis } from "@studio-freight/react-lenis";
+import { useLenis } from "lenis/react";
 
 const STATUS_MESSAGES = [
   "MOUNTING_FILESYSTEM...",

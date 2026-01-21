@@ -35,7 +35,10 @@ export function HyperText({
       isFirstRender.current = false;
       return;
     }
-    triggerAnimation();
+    const timer = setTimeout(() => {
+      triggerAnimation();
+    }, 0);
+    return () => clearTimeout(timer);
   }, [text, animateOnLoad]);
 
   useEffect(() => {

@@ -96,7 +96,7 @@ export const CustomCursor = () => {
         return {
           width: 6,
           height: 6,
-          backgroundColor: "#FF4500",
+          backgroundColor: "rgba(255, 69, 0, 1)",
           boxShadow: "0 0 10px rgba(255, 69, 0, 0.8)",
         };
       case "button":
@@ -111,7 +111,7 @@ export const CustomCursor = () => {
         return {
           width: 24,
           height: 24,
-          backgroundColor: "transparent",
+          backgroundColor: "rgba(255, 69, 0, 0)",
           border: "2px solid #FF4500",
           boxShadow: "0 0 15px rgba(255, 69, 0, 0.5)",
         };
